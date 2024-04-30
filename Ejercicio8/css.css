@@ -8,23 +8,33 @@
 html,body{
     height: 100%;               
     width: 100%;
-}
 
-.portada {
-    text-align: center;
-    padding: 2.5%;
-    color: brown;
 }
 header{
-    height: 9em;
+    height: 11em;
     background-image: url(./img/titulo.jpg);
     background-position: center;
     background-size: cover;
-}
 
-nav{
-    margin-bottom: 1%;
 }
 main{
     background-color: beige;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+
+.tarjetas{
+    margin-top: 1%;
+}
+
+footer{
+    color: beige;
+    background-color: brown;
+    text-align: right;
+}
+
+.tablasPrecios{
+    margin: 1%;
 }
